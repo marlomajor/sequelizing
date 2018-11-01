@@ -1,5 +1,9 @@
 # Sequelizing
 
+### Application built to show associations in Node using Sequelizer
+
+### Running the program
+
 To migrate:
 ```
 sequelize db:migrate

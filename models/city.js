@@ -5,8 +5,10 @@ module.exports = (sequelize, DataTypes) => {
     city_name: DataTypes.STRING
   }, {});
   City.associate = function(models) {
-    foreignKey: 'prov_code',
-    targetKey: 'prov_code'
+    City.belongsTo(models.Province, {
+      foreignKey: 'prov_code',
+      targetKey: 'prov_code'
+    });
   };
   return City;
 };

@@ -1,6 +1,6 @@
 # Sequelizing
 
-### Application built to show associations in Node using Sequelizer
+Application built to show associations in Node using Sequelizer
 
 ### Running the program
 
